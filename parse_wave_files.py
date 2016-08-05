@@ -289,7 +289,7 @@ Session = sessionmaker(bind=e)
 global ses
 ses = Session()
 
-wave_dir = '/Volumes/arctic/codaradm/data/waves/'
+wave_dir = '/home/codaradm/data/waves/'
 sites = ['BRAD', 'BRMR', 'BRNT', 'RATH', 'SEAB', 'SPRK', 'WOOD',
          'BISL', 'CMPT', 'CPHN', 'GCAP', 'HLPN', 'MISQ', 'MNTK',
          'OLDB', 'PALM', 'PORT', 'SILD', 'STLI', 'SUNS', 'VIEW']
